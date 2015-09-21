@@ -1,7 +1,9 @@
-require 'httparty'
+# require 'httparty'
 require 'byebug'
+require 'json'
 
 class CurrentConditions
+
   def initialize(zip_code)
     @zip_code = zip_code
     @response = get_response
