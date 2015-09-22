@@ -23,18 +23,20 @@ class WeatherReportTest < Minitest::Test
     assert_equal "66%", CurrentConditions.new(27612).humidity
   end
 
-  # def test_10_day_forecast
-  #   assert_equal a, TenDayForecast.new(27612).ten_day_forecast  = {"September 21, Monday: Chance of a Thunderstorm"}
-  #   assert_equal "September 22, Tuesday: Mostly Cloudy"
-  #   assert_equal "September 23, Wednesday: Mostly Cloudy"
-  #   assert_equal "September 24, Thursday: Chance of Rain"
-  #   assert_equal "September 25, Friday: Rain"
-  #   assert_equal "September 26, Saturday: Rain"
-  #   assert_equal "September 27, Sunday: Rain"
-  #   assert_equal "September 28, Monday: Clear"
-  #   assert_equal "September 29, Tuesday: Clear"
-  #   assert_equal "September 30, Wednesday: Clear", TenDayForecast.new(27612).ten_day_forecast
-  # end
+  def test_10_day_forecast
+
+    a = {"September 21, Monday" => "Chance of a Thunderstorm",
+    "September 22, Tuesday" => "Mostly Cloudy",
+    "September 23, Wednesday" => "Mostly Cloudy",
+    "September 24, Thursday" => "Chance of Rain",
+    "September 25, Friday" => "Rain",
+    "September 26, Saturday" => "Rain",
+    "September 27, Sunday" => "Rain",
+    "September 28, Monday" => "Clear",
+    "September 29, Tuesday" => "Clear",
+    "September 30, Wednesday" => "Clear"}
+    assert_equal a, TenDayForecast.new(27612).ten_day_forecast
+  end
 
   def test_sunrise_and_sunset
     assert_equal "7:01 a.m.", SunriseAndSunset.new(27612).sunrise
