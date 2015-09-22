@@ -24,7 +24,6 @@ class SunriseAndSunset
 
 end
 
-# puts "Enter a zip code:"
-api = SunriseAndSunset.new(27612)
-puts api.sunrise
-puts api.sunset
+# api = SunriseAndSunset.new(27612)
+# puts api.sunrise
+# puts api.sunset

@@ -31,9 +31,9 @@ class CurrentConditions
   end
 end
 
-puts "Enter a zip code:"
-api = CurrentConditions.new(27612)
-puts api.current_temp
-puts api.wind_direction
-puts api.weather_icon
-puts api.humidity
+# puts "Enter a zip code:"
+# api = CurrentConditions.new(27612)
+# puts api.current_temp
+# puts api.wind_direction
+# puts api.weather_icon
+# puts api.humidity

@@ -27,5 +27,5 @@ class Alerts
   end
 end
 
-api = Alerts.new(85701)
-puts api.weather_alert
+# api = Alerts.new(85701)
+# puts api.weather_alert
