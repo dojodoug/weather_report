@@ -1,0 +1,176 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "alerts": 1
+  }
+	}
+		,"query_zone": "504",
+	"alerts": [
+		{
+		"type": "FLO",
+		"description": "Flash Flood Warning",
+		"date": "3:35 PM MST on September 21, 2015",
+		"date_epoch": "1442871300",
+		"expires": "7:30 PM MST on September 21, 2015",
+		"expires_epoch": "1442889000",
+		"tz_short":"MDT",
+		"tz_long":"America/Denver",
+		"message": "\u000AThe National Weather Service in Tucson has issued a\u000A\u000A* Flash Flood Warning for...\u000A southeastern Pinal County in southeastern Arizona...\u000A northeastern Pima County in southeastern Arizona...\u000A\u000A* until 730 PM MST\u000A\u000A* at 326 PM MST...Doppler radar and automated rain gauges indicated\u000A between 2.50 and 3.50 inches with isolated amounts up to 4 inches \u000A of rain had fallen on the Santa Catalina Mountains. An automated \u000A rainfall gage in Dan Saddle recorded 4.13 inches of rain. Although \u000A this rainfall has occurred over several hours...this widespread and\u000A significant rainfall will result in flash flooding. The heaviest \u000A rainfall has been in the Canada del Oro watershed. This runoff \u000A takes several hours to make it down the mountain.\u000A\u000AAdditional watersheds that may experience flash flooding include \u000ASabino creek and Bear Canyon on the southern side of the Catalina...and\u000Athe San Pedro river on the northeast side of the Catalina mountains. \u000A\u000APrecautionary/preparedness actions...\u000A\u000AExcessive runoff from heavy rainfall will cause flooding of washes\u000Aand streams...urban areas...highways...streets and underpasses as\u000Awell as other drainage areas and low lying spots.\u000A\u000A\u000ALat...Lon 3240 11046 3236 11094 3259 11087 3259 11046\u000A\u000A\u000A\u000A\u000A",
+		"phenomena": "FF",
+		"significance": "W",
+		"ZONES": [
+		{
+		"state":"AZ",
+		"ZONE":"501"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"502"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"503"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"504"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"507"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"513"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"514"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"515"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"024"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"028"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"505"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"506"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"511"
+		}
+		],
+		"StormBased": {
+		}
+		}
+		,
+		{
+		"type": "WAT",
+		"description": "Flash Flood Watch",
+		"date": "2:56 PM MST on September 21, 2015",
+		"date_epoch": "1442868960",
+		"expires": "5:00 PM MST on September 22, 2015",
+		"expires_epoch": "1442966400",
+		"tz_short":"MDT",
+		"tz_long":"America/Denver",
+		"message": "\u000A...Flash Flood Watch remains in effect through Tuesday\u000Aafternoon...\u000A\u000AThe Flash Flood Watch continues for\u000A\u000A* a portion of Southeast Arizona...including the following \u000A Baboquivari Mountains...Catalina ...and Rincon Mountains... \u000A Chiricahua Mountains...Dragoon and mule and huachuca and Santa \u000A Rita Mountains...eastern Cochise County below 5000 feet... \u000A galiuro and Pinaleno Mountains...south central Pinal County... \u000A southeast Pinal County...Tucson Metro area...upper Gila River \u000A valley...upper San Pedro River Valley...upper Santa Cruz River \u000A Valley/Altar Valley and White Mountains of Graham and Greenlee \u000A counties. \u000A\u000A* Through Tuesday afternoon\u000A\u000A* rainfall amounts from 1 to 2 inches have been experienced in\u000A many valley locations so far today...with 3 to 4 inches in some\u000A mountain locations. Additional rainfall amounts up to 1/2 inch\u000A in valleys are possible with isolated higher amounts. Up to 1\u000A inch additional rainfall possible in the vicinity of mountains. \u000A\u000APrecautionary/preparedness actions...\u000A\u000AA Flash Flood Watch means that conditions are becoming favorable\u000Afor widespread flash flooding to develop. Monitor forecasts\u000Aclosely and be ready to take quick action if flash flood warnings\u000Aare issued.\u000A\u000ABe especially cautious at night when it is harder to recognize\u000Athe dangers of flash floods. If flash flooding is observed...act\u000Aquickly. Turn around and take another Route.\u000A\u000AListen to NOAA Weather Radio...commercial radio or television\u000Astations...or your cable television provider for updates on this\u000Aflash flood threat.\u000A\u000A\u000A\u000AMeyer\u000A\u000A\u000A",
+		"phenomena": "FF",
+		"significance": "A",
+		"ZONES": [
+		{
+		"state":"AZ",
+		"ZONE":"503"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"504"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"505"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"506"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"507"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"508"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"509"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"510"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"511"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"512"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"513"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"514"
+		}
+		,
+		{
+		"state":"AZ",
+		"ZONE":"515"
+		}
+		],
+		"StormBased": {
+		}
+		}
+	]
+}

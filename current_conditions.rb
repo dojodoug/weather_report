@@ -1,6 +1,6 @@
-# require 'httparty'
+require 'httparty'
 require 'byebug'
-require 'json'
+
 
 class CurrentConditions
 
@@ -26,15 +26,13 @@ class CurrentConditions
   end
 
   private def get_response
-    # key = ENV['WUNDERGROUND_KEY']
-    # HTTParty.get("https://api.wunderground.com/api/#{key}/conditions/q/#{@zip_code}.json")
-    file = File.read('weather_conditions.json')
-    data_hash = JSON.parse(file)
+    key = ENV['WUNDERGROUND_KEY']
+    HTTParty.get("https://api.wunderground.com/api/#{key}/conditions/q/#{@zip_code}.json")
   end
 end
 
 puts "Enter a zip code:"
-api = CurrentConditions.new(gets.chomp)
+api = CurrentConditions.new(27612)
 puts api.current_temp
 puts api.wind_direction
 puts api.weather_icon

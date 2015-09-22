@@ -1,5 +1,5 @@
+require 'httparty'
 require 'byebug'
-require 'json'
 
 class SunriseAndSunset
 
@@ -17,8 +17,9 @@ class SunriseAndSunset
   end
 
   private def get_response
-    file = File.read('sunrise_and_sunset.json')
-    data_hash = JSON.parse(file)
+
+    key = ENV['WUNDERGROUND_KEY']
+    HTTParty.get("https://api.wunderground.com/api/#{key}/astronomy/q/#{@zip_code}.json")
   end
 
 end

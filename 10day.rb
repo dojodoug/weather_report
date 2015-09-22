@@ -1,5 +1,5 @@
+require 'httparty'
 require 'byebug'
-require 'json'
 
 class TenDayForecast
 
@@ -18,13 +18,13 @@ class TenDayForecast
   end
 
   private def get_response
-    file = File.read('10day.json')
-    data_hash = JSON.parse(file)
+    key = ENV['WUNDERGROUND_KEY']
+    HTTParty.get("https://api.wunderground.com/api/#{key}/forecast10day/q/#{@zip_code}.json")
   end
 
 end
 
-puts "Enter your zip code"
+#puts "Enter your zip code"
 api = TenDayForecast.new(27612)
 
 results = api.ten_day_forecast
